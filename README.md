@@ -18,11 +18,11 @@ There are atleast five known ways of dealing with data imbalance in Machine Lear
 <strong>NB</strong> Before you do any Oversampling techniques, you must split your data into train and test datasets! This is to avoid the exact same observations to be present in both the test and train sets. This can allow our model to simply memorize specific data points and cause overfitting and poor generalization to the test data.
 
 #### Changing the Performance Metrics
-### Changing the Algorithm
+#### Changing the Algorithm
 
-### Oversampling the Minority Class
+#### Oversampling the Minority Class
 Oversampling can be defined as adding more copies of the minority class. In other words, we are creating artificial/synthetic data of the minority class (or group). Oversampling could be a good choice when you don’t have a lot of data to work with.
-### Undersampling the Majority Class
+#### Undersampling the Majority Class
 Undersampling can be defined as removing some observations of the majority class. Undersampling can be a good choice when you have a ton of data -think millions of rows. But a drawback is that we are removing information that may be valuable. This could lead to underfitting and poor generalization to the test set.
-### SMOTE Technique
+#### SMOTE Technique
 Here we will use imblearn’s SMOTE or Synthetic Minority Oversampling Technique. SMOTE uses a nearest neighbors' algorithm to generate new and synthetic data we can use for training our model.
