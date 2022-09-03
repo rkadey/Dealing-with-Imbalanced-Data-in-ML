@@ -14,5 +14,6 @@ There are atleast five known ways of dealing with data imbalance in Machine Lear
  - Oversampling the Minority Class
  - Undersampling the Majority Class
  - Imblearn SMOTE
+ <strong>NB</strong> Before you do any Oversampling techniques, you must split your data into train and test datasets! This is to avoid the exact same observations to be present in both the test and train sets. This can allow our model to simply memorize specific data points and cause overfitting and poor generalization to the test data.
 
 #### Changing the Performance Metrics
