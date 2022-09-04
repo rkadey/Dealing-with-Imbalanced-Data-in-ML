@@ -18,8 +18,9 @@ There are atleast five known ways of dealing with data imbalance in Machine Lear
 <strong>NB</strong> Before you do any Oversampling techniques, you must split your data into train and test datasets! This is to avoid the exact same observations to be present in both the test and train sets. This can allow our model to simply memorize specific data points and cause overfitting and poor generalization to the test data.
 
 #### Changing the Performance Metrics
+We can simply change our metric from accuracy to either one or all of these. ie. Confusion Matrix, Precision, Recall and F1 Score.
 #### Changing the Algorithm
-
+Decision Trees frequently perform better with imbalanced datasets. In a situation where your algorithm is different with your dataset also having class imbalance, you might want to add Decion Trees to improve the result.
 #### Oversampling the Minority Class
 Oversampling can be defined as adding more copies of the minority class. In other words, we are creating artificial/synthetic data of the minority class (or group). Oversampling could be a good choice when you don’t have a lot of data to work with.
 #### Undersampling the Majority Class
