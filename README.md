@@ -30,3 +30,4 @@ Undersampling can be defined as removing some observations of the majority class
 Here we will use imblearn’s SMOTE or Synthetic Minority Oversampling Technique. SMOTE uses a nearest neighbors' algorithm to generate new and synthetic data we can use for training our model.
 
 ### Conclusion
+In conclusion, dealing with class imbalance in datasets is very vital as it curbs inaccurate results. Five major ways of dealing with imbalance are; Changing the Performance Metric, Changing the algorithm, Oversampling the Minority class, Undersampling the Majority class and finally, using the Imblearn SMOTE teachnique.
