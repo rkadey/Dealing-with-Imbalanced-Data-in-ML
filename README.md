@@ -33,5 +33,6 @@ Here we will use imblearn’s SMOTE or Synthetic Minority Oversampling Technique
 In conclusion, dealing with class imbalance in datasets is very vital as it curbs inaccurate results. Five major ways of dealing with imbalance are; Changing the Performance Metric, Changing the algorithm, Oversampling the Minority class, Undersampling the Majority class and finally, using the Imblearn SMOTE teachnique.
 
 ## Author
--[Richard Kadey] (https://linktr.ee/rkadey)
--[Blog] (https://medium.com/@richardkadey)
+[Richard Kadey](https://linktr.ee/rkadey)
+
+[Blog](https://medium.com/@richardkadey)
