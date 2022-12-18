@@ -4,11 +4,11 @@
 2. Why do we have to balance the data?
 3. Techniques to handle Class Imbalanced datasets
 4. Conclusion
-### What is Class Imbalance?
+## What is Class Imbalance?
 Class Imbalance arises in Machine Learning when the target classes are not equally distributed or not in an equal ratio. For example, consider a dataset with a target values of dead and alive. If approximately more than half of the distribution represents the dead class and the other represent the alive class, we say the dataset is imbalanced. How then do we deal with this imbalance? This notebook helps us explore the ways we correct class imbalance in datasets to avoid getting inacurate results.
-### Reasons why we balance data
+## Reasons why we balance data
 Balancing class in datasets is super important because imbalance datasets can lead to inaccurate results. In Machine Learning, we always aim to make our predictions accurate. If we have imbalanced dataset, our model will be more biased towards the class with dominancy in our dataset.
-### Techniques to handle Class Imbalanced datasets
+## Techniques to handle Class Imbalanced datasets
 There are atleast five known ways of dealing with data imbalance in Machine Learning.
  - Changing Performance Metrics
  - Changing the Algorithm
@@ -29,5 +29,9 @@ Undersampling can be defined as removing some observations of the majority class
 #### SMOTE Technique
 Here we will use imblearn’s SMOTE or Synthetic Minority Oversampling Technique. SMOTE uses a nearest neighbors' algorithm to generate new and synthetic data we can use for training our model.
 
-### Conclusion
+## Conclusion
 In conclusion, dealing with class imbalance in datasets is very vital as it curbs inaccurate results. Five major ways of dealing with imbalance are; Changing the Performance Metric, Changing the algorithm, Oversampling the Minority class, Undersampling the Majority class and finally, using the Imblearn SMOTE teachnique.
+
+## Author
+-[Richard Kadey] (https://linktr.ee/rkadey)
+-[Blog] (https://medium.com/@richardkadey)
